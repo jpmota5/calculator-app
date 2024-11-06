@@ -1,0 +1,41 @@
+<resources>
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/rounded_button</item> <!-- Forma padrão -->
+    </style>
+
+    <style name="CalculatorButtonOperation">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/rounded_button_operation</item> <!-- Forma para operações -->
+    </style>
+
+    <style name="CalculatorButtonEqual">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/rounded_button_clear_equal</item> <!-- Forma para o botão igual -->
+    </style>
+
+    <style name="CalculatorButtonClear">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/rounded_button_clear_equal</item> <!-- Forma para o botão C -->
+    </style>
+</resources>
